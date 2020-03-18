@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- title -->
+        <title>VDAB Jobdag</title>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/20fbb8ee1e.js" crossorigin="anonymous"></script>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navigatie-->
+        <section id="navigatie" class="fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="#" class="navbar-brand">AppTeam</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#header" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#overons" class="nav-link">Over Ons</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projecten" class="nav-link">Projecten</a>
+                            </li>
+                            <li class="nav-item teamScrollOne">
+                                <a href="#team" class="nav-link">Het Team</a>
+                            </li>
+                            <li class="nav-item teamScrollTwo">
+                                <a href="#teammobile" class="nav-link">Het Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Inschrijven</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <!-- header -->
+        <section id="header">
+            <div class="container">
+                <div class="col">
+                    <h3>Jobdag 2020</h3>
+                    <div id="countdownClock"></div>
+                    <a href="#inschrijven">inschrijven voor jobdag</a>
+                </div>
+            </div>
+        </section>
+        <!-- over ons -->
+        <section id="overons">
+            <div class="container">
+                <div class="col">
+                    <h3>over ons</h3>
+                    <div id="overonsContent">
+                        <h2>Wie zijn wij?</h2>
+                        <p>We zijn een gevarieerde groep van enthousiaste, gedreven individuen die een opleiding volgen om hybride mobiele applicaties te ontwikkelen voor zowel de bedrijfswereld als voor de App Stores.</p>
+                        <h2>Waarom deze opleiding?</h2>
+                        <p>Zoals zovelen, geloven ook wij dat mobile de toekomst is, net zoals dat SaaS en BOYD dat ook reeds in de professionele wereld geworden zijn. Hybride applicaties maken cross-platform werken mogelijk, nee, makkelijk, en zorgen voor een optimalisatie van middelen en voorkeuren zodat iedereen zo productief mogelijk zijn ding kan doen</p>
+                        <h2>Wie koos voor deze opleiding?</h2>
+                        <p>Jonge schoolverlaters, een laborant, een sinoloog, enkele arbeiders op zoek naar nieuwe uitdagingen en een ex-zeeman klaar voor een carrière aan wal, er is voor ieder wat wils beschikbaar. Iederen brengt zijn eigen sterktes mee, elders opgedane kennis en insider-knowhow van verschillende sectoren en opportuniteiten</p>
+                        <h2>Hoe moet u ons zien?</h2>
+                        <p>Vooral als gedreven, doelbewuste junior developers die graag deel willen uitmaken van een veranderende wereld, waarin UI/UX design hand in hand gaan met solide bedrijfsapplicaties en waarin gamification ook kan aanzien worden als motiverende aanpak voor het halen van targets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- projecten -->
+        <section id="projecten">
+            <div class="container">
+                <div class="col">
+                    <h3>projecten</h3>
+                    <div id="category">
+                        <ul>
+                            <li onclick="projecten('programmeerlogica')">Programmeerlogica</li><span>//</span>
+                            <li onclick="projecten('frontendcoding')">Frontend Coding</li><span>//</span>
+                            <li onclick="projecten('frontendscripting')">Frontend Scripting</li><span>//</span>
+                            <li onclick="projecten('databankensql')">Databanken SQL</li>
+                        </ul>
+                    </div>
+                    <div id="programmeerlogica">
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>programmeerlogica</h1>
+                                <p>Hierin is ons vooral aangeleerd te leren denken zoals een programmeur. Computational thinking, zoals het dan genoemd wordt, was de basisstructuur waarin we werkten. JavaScript, Node.JS, GitHub en Visual Studio Code waren onze tools om dit te bereiken.</p>
+                                <p>Wat hebben we dan juist gedaan?</p>
+                                <p>We zijn begonnen met de essentie, iets schrijven in de console. Al heel snel ging dit over naar if/else statements en verschillende lussen, om te eindigen met een culmulatie van dit alles in een rapport generator.</p>
+                                <a href="#">live demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="frontendcoding">
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>frontend coding</h1>
+                                <p>HTML5 <span>-</span> CSS <span>-</span> Bootstrap <span>-</span> SASS <span>-</span> Gulp <span>-</span> Google Fonts <span>-</span> Font Awesome</p>
+                                <p>Dat zijn de buzzwords van dit onderdeel. Wat hebben we hier gedaan? Websites gemaakt, van zeer basic tot gevorderde sites die klaar zijn voor publicatie. Iedereen met zijn eigen insteek, eigen ontwerp en eigen opmaak</p>
+                                <p>De beste voorbeelden hiervan zijn onze persoonlijke websites die u vindt onder het tabblad “Het Team” of bekijk de live demo van onze examenopdracht.</p>
+                                <a href="demo/frontendcoding/index.html">live demo</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="frontendscripting">
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>frontend scripting</h1>
+                                <p>Voortgaande op frontend coding, voegt dit vak interactiviteit toe aan onze websites en webdesigns. JavaScript is hier de tool bij uitstek voor, ook al volgen er in de komende lessen ook nog enkele klinkende namen zoals TypeScript, Angular en React.</p>
+                                <p>Aangezien dit nog lopende is, zijn er nog geen voorbeelden gepost of gedeeld. Mocht dit voor de jobdag nog gebeuren, kan u deze hier direct terugvinden.</p>
+                                <!-- <a href="#">live demo</a>  -->
+                            </div>
+                        </div>
+                    </div>
+                    <div id="databankensql">
+                        <div class="row hoofdstuk">
+                            <div class="col-6 links">demo img</div>
+                            <div class="col-md-6 rechts">
+                                <h1>databanken sql</h1>
+                                <p>Wij zijn begonnen met het normaliseren van databanken, m.a.w. het ontwerpen en uittekenen van hoe en wat de databank later gaat bevatten en waar deze informatie gaat weggeschreven worden.</p>
+                                <p>De volgende stap is CRUD (Create, Read, Update, Delete) op MySQL databanken. We hebben reeds bestaande databanken leren bewerken en hoe we informatie eruit kunnen halen. De volgende stap die hierop volgt, is het aanmaken van databanken en tabellen. Aansluitend gaan we ook leren werken met mobiele en online databanken zoals SQLite en Firebase.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team -->
+        <section id="team" class="teamScroll">
+            <div class="container">
+                <div class="col">
+                    <div class="row">
+                        <h3>team</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/je_profiel.jpg" alt="">
+                                <p>Jonas Eyskens</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/jonas-eyskens" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/rvl_profiel.jpg" alt="">
+                                <p>Robin Van Landeghem</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/robinvanlandeghem/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/default.png" alt="">
+                                <p>Dirk Francis</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/dirkfrancis" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/default.png" alt="">
+                                <p>Ceddy Vandyck</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/ceddy-vandyck-391210199/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/default.png" alt="">
+                                <p>Jef Van Den Dorpe</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/jef-van-den-dorpe-803a65198/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/default.png" alt="">
+                                <p>Kevin Deconinck</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/kevindeconinck89/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/default.png" alt="">
+                                <p>Jelle Miler</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/jelle-miler-90574a121/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="box">
+                                <img src="img/sm_profiel.png" alt="">
+                                <p>Sammy Maerevoet</p>
+                                <div class="social">
+                                    <a href="https://www.linkedin.com/in/sammy-maerevoet/" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-globe-europe"></i>
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        <i class="fas fa-file-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team mobile -->
+        <section id="teammobile" class="teamScroll">
+            <div class="container-fluid">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="lid">
+                                <img src="img/je_profiel.jpg" class="profiel">
+                                <h2>jonas eyskens</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/rvl_profiel.jpg" class="profiel">
+                                <h2>robin vanlandeghem</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>dirk francis</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>ceddy vandyck</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>jef van den dorpe</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>kevin deconinck</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/default.png" class="profiel">
+                                <h2>jelle miler</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="lid">
+                                <img src="img/sm_profiel.png" class="profiel">
+                                <h2>sammy maerevoet</h2>
+                                <div class="link">
+                                    <a href="#" target="_blank">bekijk cv</a>
+                                    <a href="#" target="_blank">persoonlijke website</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>inschrijven</h3>
+                    </div>
+                </div>
+                <div class="row" id="inschrijven">
+                    <div class="col">
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScMJKRDbttG30OzRGm2N_Rn2cdmYrLfXQoCf5TRZRPm-aDBeA/viewform?embedded=true" width="" height="" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="col">
+                    <p><span>&copy;</span> Copyright 2020</p>
+                </div>
+            </div>
+        </section>
+        <!-- countdown script -->
+        <script src="js/script.js"></script>
+        <!-- bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
