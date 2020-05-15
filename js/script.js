@@ -21,24 +21,34 @@ function projecten(project){
             document.getElementById('frontendcoding').style.display='none';
             document.getElementById('frontendscripting').style.display='none';
             document.getElementById('databankensql').style.display='none';
+            document.getElementById('angular').style.display='none';
             break;
         case 'frontendcoding':
             document.getElementById('programmeerlogica').style.display='none';
             document.getElementById('frontendcoding').style.display='flex';
             document.getElementById('frontendscripting').style.display='none';
             document.getElementById('databankensql').style.display='none';
+            document.getElementById('angular').style.display='none';
             break;
         case 'frontendscripting':
             document.getElementById('programmeerlogica').style.display='none';
             document.getElementById('frontendcoding').style.display='none';
             document.getElementById('frontendscripting').style.display='flex';
             document.getElementById('databankensql').style.display='none';
+            document.getElementById('angular').style.display='none';
             break;
         case 'databankensql':
             document.getElementById('programmeerlogica').style.display='none';
             document.getElementById('frontendcoding').style.display='none';
             document.getElementById('frontendscripting').style.display='none';
             document.getElementById('databankensql').style.display='flex';
+            document.getElementById('angular').style.display='none';
             break;
+        case 'angular':
+            document.getElementById('programmeerlogica').style.display='none';
+            document.getElementById('frontendcoding').style.display='none';
+            document.getElementById('frontendscripting').style.display='none';
+            document.getElementById('databankensql').style.display='none';
+            document.getElementById('angular').style.display='flex';
     }
 }
